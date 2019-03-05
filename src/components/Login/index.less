@@ -1,0 +1,62 @@
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #fff;
+  background-size: cover;
+  :global{
+    .ant-tabs-bar{
+        border-bottom:none;
+        text-align: center;
+    }
+    .ant-tabs:not(.ant-tabs-vertical) > .ant-tabs-content-animated{
+        min-height: 430px;
+    }
+    .ant-form-item-label{
+        text-align: left;
+    }
+  }
+}
+.loginForm {
+  padding: 36px 36px 0 36px;
+  width: 420px;
+  button {
+      width: 100%;
+  }
+  .loginAccount {
+      color: #999;
+      text-align: center;
+      margin-top: 16px;
+      span {
+          &:first-child {
+              margin-right: 16px;
+          }
+      }
+  }
+}
+
+.loginLogo {
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 600;
+  img {
+      width: 100px;
+      margin-right: 8px;
+  }
+  span {
+      vertical-align: text-bottom;
+      font-size: 16px;
+      text-transform: uppercase;
+      display: inline-block;
+  }
+}
+
+.ant-spin-container,
+.ant-spin-nested-loading {
+  height: 100%;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "cy-template-react",
+  "version": "0.0.1",
+  "scripts": {},
+  "description": "react 项目模板",
+  "license": "MIT",
+  "dependencies": {
+    "w-scene-react": "1.0.0",
+    "rollbar": "^2.5.0",
+    "url-polyfill": "^1.1.0"
+  }
+}
